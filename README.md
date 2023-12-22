@@ -14,3 +14,10 @@ brew install git
 
 
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
+
+## Editing
+To open the dotfile repo in VSCode, run 
+```
+chezmoi cd 
+code .
+ ```
