@@ -2,6 +2,8 @@
 
 Inspired by https://github.com/rkalis/dotfiles
 
+https://www.chezmoi.io/quick-start/#start-using-chezmoi-on-your-current-machine
+
 ## Usage
 
 1. Generate new SSH keys and add them to your GitHub account
