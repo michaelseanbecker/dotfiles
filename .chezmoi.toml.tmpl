@@ -1,9 +1,11 @@
 {{- $email := promptString "email" -}}
 {{- $location := promptString "location" -}}
+{{- $opaccount := promptString "OP Account" -}}
 
 [data]
     email = "{{ $email }}"
     location = "{{ $location }}"
+    opaccount = "{{ $opaccount }}"
 
 [edit]
     command = "code"

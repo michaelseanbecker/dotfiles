@@ -43,4 +43,9 @@ mas "Ivory", id: 6444602274
 mas "Tailscale", id: 1475897096
 
 EOF
+
+op account add --address $OPACCOUNT.1password.com --email $EMAIL
+eval $(op signin --account $OPACCOUNT)
+
+
 {{ end -}}
