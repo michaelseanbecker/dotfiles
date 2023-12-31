@@ -23,3 +23,5 @@ To open the dotfile repo in VSCode, run
 chezmoi cd 
 code .
  ```
+
+ https://blog.arkey.fr/2020/04/01/manage_dotfiles_with_chezmoi/
