@@ -1,6 +1,15 @@
 {{- $email := promptString "email" -}}
 {{- $location := promptString "location" -}}
+{{- $opaccount := promptString "OP Account" -}}
 
 [data]
     email = "{{ $email }}"
     location = "{{ $location }}"
+    opaccount = "{{ $opaccount }}"
+
+[edit]
+    command = "code"
+    args = ["--wait"]
+
+[hooks.read-source-state.pre]
+    command = ".local/share/chezmoi/.install-password-manager.sh"
