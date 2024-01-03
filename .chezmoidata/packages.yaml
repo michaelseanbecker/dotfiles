@@ -1,0 +1,10 @@
+packages:
+  darwin:
+    brews:
+    - 'git'
+    - '1password-cli'
+    casks:
+    - 'google-chrome'
+    - '1password'
+    - 'iterm2'
+    - 'visual-studio-code'

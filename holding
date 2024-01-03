@@ -1,24 +1,24 @@
-# Install these on work machines only
-# {{- if eq .location "work" }}
-# {{- end }}
+
+brew bundle --no-lock --file=/dev/stdin <<EOF
+
 
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 cask "1password"
 cask "bartender"
-cask "iterm2"
-cask "visual-studio-code"
+cask "google-chrome"
 
 brew "mas"
+brew "git"
 brew "node"
 brew "nvm"
 brew "postgresql@10"
 brew "ruby-build"
 brew "rbenv"
 brew "redis"
-brew "gh"
 brew "1password-cli"
+
 mas "Acorn", id: 1547371478
 mas "Airmail", id: 918858936
 mas "Day One", id: 1055511498
@@ -39,3 +39,11 @@ mas "Things", id: 904280696
 mas "Fantastical", id: 975937182
 mas "Ivory", id: 6444602274
 mas "Tailscale", id: 1475897096
+
+EOF
+
+op account add --address $OPACCOUNT.1password.com --email $EMAIL
+eval $(op signin --account $OPACCOUNT)
+
+
+{{ end -}}
