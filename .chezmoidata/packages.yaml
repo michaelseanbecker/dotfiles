@@ -7,6 +7,10 @@ packages:
     - 'nvm'
     - 'gh'
     - 'yarn'
+    - 'redis'
+    - 'postgresql@10'
+    - 'ruby-build'
+    - 'rbenv'
     casks:
     - 'google-chrome'
     - '1password'
