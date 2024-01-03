@@ -2,9 +2,9 @@ packages:
   darwin:
     brews:
     - 'git'
-    - '1password-cli'
     casks:
     - 'google-chrome'
     - '1password'
+    - '1password-cli'
     - 'iterm2'
     - 'visual-studio-code'
