@@ -13,31 +13,50 @@ packages:
     - 'rbenv'
     - 'starship'
     - 'tmux'
-    - 'tailscale'
     casks:
-    - 'google-chrome'
-    - '1password'
+    # - 'google-chrome'
+    # - '1password'
     - '1password-cli'
     - 'iterm2'
     - 'visual-studio-code'
     mas:
-      - 1435957248 # Drafts
-      - 1547371478 # Acorn
-      - 918858936 # Airmail
-      - 1055511498 # Day One
-      - 1435957248 # Drafts
-      - 975937182 # Fantastical
-      - 1462114288 # Grammarly for Safari
-      - 1171820258 # Highland 2
-      - 1099568401 # Home Assistant
-      - 408981434 # iMovie
-      - 409183694 # Keynote
-      - 441258766 # Magnet
-      - 409203825 # Numbers
-      - 409201541 # Pages
-      - 1449412482 # Reeder
-      - 1477385213 # Save to Pocket
-      - 803453959 # Slack
-      - 904280696 # Things
-      - 6444602274 # Ivory
-      - 1475897096 # Tailscale
+      - name: 'Drafts'
+        id: 1435957248
+      - name: Acorn
+        id: 1547371478
+      - name: Airmail
+        id: 918858936
+      - name: Fantastical
+        id: 975937182
+      - name: Grammarly for Safari
+        id: 1462114288
+      - name: Highland 2
+        id: 1171820258
+      - name: Home Assistant
+        id: 1099568401
+      - name: iMovie
+        id: 408981434
+      - name: Keynote
+        id: 409183694
+      - name: Magnet
+        id: 441258766
+      - name: Numbers
+        id: 409203825
+      - name: Pages
+        id: 409201541
+      - name: Reeder
+        id: 1449412482
+      - name: Save to Pocket
+        id: 1477385213
+      # - name: Slack
+      #   id: 803453959
+      - name: Things
+        id: 904280696
+      - name: Ivory
+        id: 6444602274
+      - name: Pocket
+        id: 568494494
+      # - name: StreetPass for Mastodon
+      #   id: 1475897096
+      # - name: Tailscale
+      #   id: 1470499037

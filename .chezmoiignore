@@ -7,7 +7,9 @@ holding
 
 *.json
 
-*.sh
+# *.sh
+install_osx.sh
+install-password-manager.sh
 
 *.txt   # ignore *.txt in the target directory
 */*.txt # ignore *.txt in subdirectories of the target directory
