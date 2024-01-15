@@ -19,6 +19,9 @@ packages:
     - '1password-cli'
     - 'iterm2'
     - 'visual-studio-code'
+    - 'elgato-stream-deck'
+    - 'obsidian'
+    - 'bartender'
     mas:
       - name: 'Drafts'
         id: 1435957248
