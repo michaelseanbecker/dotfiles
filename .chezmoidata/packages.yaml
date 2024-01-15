@@ -8,10 +8,12 @@ packages:
     - 'gh'
     - 'yarn'
     - 'redis'
-    - 'postgresql@10'
+    - 'postgresql@16'
     - 'ruby-build'
     - 'rbenv'
     - 'starship'
+    - 'tmux'
+    - 'tailscale'
     casks:
     - 'google-chrome'
     - '1password'
