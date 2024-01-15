@@ -22,6 +22,7 @@ packages:
     - 'elgato-stream-deck'
     - 'obsidian'
     - 'bartender'
+    - 'linear-linear'
     mas:
       - name: 'Drafts'
         id: 1435957248
