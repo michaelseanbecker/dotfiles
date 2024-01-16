@@ -6,6 +6,7 @@ packages:
     - 'node'
     - 'nvm'
     - 'gh'
+    - 'go'
     - 'yarn'
     - 'redis'
     - 'postgresql@16'
@@ -48,8 +49,8 @@ packages:
         id: 409203825
       - name: Pages
         id: 409201541
-      - name: Reeder
-        id: 1449412482
+      - name: Reeder 5.
+        id: 1529448980
       - name: Save to Pocket
         id: 1477385213
       # - name: Slack
