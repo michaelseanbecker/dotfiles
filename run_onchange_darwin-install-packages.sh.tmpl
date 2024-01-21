@@ -8,6 +8,24 @@ brew {{ . | quote }}
 {{ range .packages.darwin.casks -}}
 cask {{ . | quote }}
 {{ end -}}
+
+{{ if ne .location "work" -}}
+
+{{ range .packages.darwin.ghentcasks -}}
+cask {{ . | quote }}
+{{ end -}}
+
+{{/* Uncomment if I evern need brews for work specifically */}}
+{{/* {{ range .packages.darwin.ghent-brews -}} */}}
+{{/* brew {{ . | quote }} */}}
+{{/* {{end -}} */}}
+
+{{ range .packages.darwin.ghentmas -}}
+mas "{{ .name }}", id: {{ .id }}
+{{ end -}}
+
+{{ end -}}
+
 {{ range .packages.darwin.mas -}}
 mas "{{ .name }}", id: {{ .id }}
 {{ end -}}
