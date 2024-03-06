@@ -107,4 +107,6 @@ source $(brew --prefix nvm)/nvm.sh
 # alias zshconfig="mate ~/.zshrc"
 eval "$(starship init zsh)"
 
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
+plugins=(cdenhanced, 1password)
