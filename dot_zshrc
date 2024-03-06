@@ -72,6 +72,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+plugins+=(cdenhanced)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,7 +107,5 @@ source $(brew --prefix nvm)/nvm.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 eval "$(starship init zsh)"
-
-plugins+=(zsh-nvm)
 
 # alias ohmyzsh="mate ~/.oh-my-zsh"
