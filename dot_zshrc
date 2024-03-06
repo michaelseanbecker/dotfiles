@@ -109,4 +109,4 @@ eval "$(starship init zsh)"
 
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
-plugins=(cdenhanced, 1password)
+plugins=(cdenhanced)
